@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -112,6 +113,7 @@ a {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding: 125px;
 }
 
 .quote .text {
@@ -127,11 +129,44 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
-.action button {
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 75%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px 100px;
+}
+
+.banner .text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.banner .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: fit-content;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.button button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 8px;
+    border: 2px solid white;
+    width: 100px;
+    padding: 5px;
 }
 
 .footer {
@@ -141,5 +176,5 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
+    padding: 20px;
 }
